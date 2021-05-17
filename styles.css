@@ -1,0 +1,74 @@
+.titulo-categoria{
+    color: grey;
+    font-size: 30px;
+    font-style: italic;
+}
+.lista-produtos{
+    list-style: none;
+    padding: 0px;
+}
+.item-produto{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 200px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 05px;
+    margin-right: 15px;
+    box-shadow: 0 1px 3px 1px grey ;
+}
+.item-produto:hover{
+    box-shadow: 0 1px 8px 1px grey ;
+    
+}
+a{text-decoration: none;}
+.nome-produto{
+    color: #153139;
+        font-weight: bold;
+        margin-bottom: 10px;
+}
+.marca{
+    color:#f1a658;
+    font-weight: bold;
+    
+}
+.Qtd{
+    color: grey;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.Preços{
+    margin-top: 30px;
+}
+.Preço-normal{
+    color: grey;
+    text-decoration: line-through;
+    font-weight: bold; 
+    font-size: 13px;
+
+}
+.Preço-Promo{
+    color: #a6192e;
+    font-weight: bold;
+
+}
+.btn-comprar{
+    border: 1px solid#005866;
+    color: #005866;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: block;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+.btn-comprar:hover{
+    color: white;
+    background-color:#005866 ;
+    
+}
